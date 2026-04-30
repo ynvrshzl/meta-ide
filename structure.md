@@ -6,5 +6,12 @@ this is where we have ideas for, common templates for directories and file struc
 
 > "Add new main module at 'api/core'"
 
-(Internally simply creates a new main.js file, with module capabilities. but for the human engineer, this fundamentally reduces cognitive weight, and increases reusability of interaction, ensuring a stable code base.)
+Internally simply creates a new main.js file, with module capabilities. but for the human engineer, this fundamentally reduces cognitive weight, and increases reusability of interaction, ensuring a stable code base.
 
+> "What is the purpose of this project?"
+
+this is possibly one of the most important props, because if the engineer does not understand the purpose of the project they are building, they will inevitably get lost in the infinite abstraction of programming. providing a purpose, does not have to exist in static text, it can live inside the code base itself. which is tapping into meta-ide visualization capabilities.
+
+> "what is the local context of this function?"
+
+in this case, The prompt behaves more like a query, the engineer can optionally choose to provide a descriptions for functions, which will be rendered alongside the visualization of the code. however, local context can also be a query which is automated by the code query language. in the first case, when an engineer provides a description for the local context of a function, they are required to understand the purpose of what they are writing, from a level outside of the function itself. this greatly reduces abstraction noise syndrome (#citation-needed!)
